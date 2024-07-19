@@ -48,7 +48,7 @@ def plot_graphs(data, name, color):
     plt.close()
 
 if __name__ == "__main__":
-    ocelots_list, cats_list = simulate_turns(5)
+    ocelots_list, cats_list = simulate_turns(10)
 
     for i in range(len(ocelots_list)):
         print(f'Turno {i}: Ocelotes: {ocelots_list[i]}, Gatos: {cats_list[i]}')
